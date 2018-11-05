@@ -86,5 +86,6 @@ app.delete('/api/add/books/:id', (req, res) => {
 
 const port = process.env.port || 3000
 app.listen(port, () => {
+    console.log(process.env.port)
     console.log(`started at port: ${port}`)
 })
