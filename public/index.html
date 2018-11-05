@@ -28,7 +28,7 @@
 <Script>
     $.ajax({
         type: "GET",
-        url: "http://localhost:3000/api/books",
+        url: "/api/books",
         success: (data, status, xhr) => {
             let template = ``
             data.map((item) => {
